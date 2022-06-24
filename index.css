@@ -11,5 +11,46 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 50vh;
+    background-color: #f8f8f8;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     
+    justify-content: flex-start;
+    border-radius: 20px;
+
+}
+.users{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.users > input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(117, 117, 117);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.users > .btn {
+    padding: 10px 10px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    background-color: #1b1b1b;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
 }
